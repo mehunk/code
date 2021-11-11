@@ -5,5 +5,5 @@
 <RippleButton />
 
 <script setup>
-import RippleButton from '@/ui/animation/ripple-button/index.vue'
+import RippleButton from '../../../ui/animation/ripple-button/index.vue'
 </script>

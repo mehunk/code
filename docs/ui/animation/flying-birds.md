@@ -34,5 +34,5 @@
 ## 源文件
 
 <script setup>
-import FlyingBirds from '@/ui/animation/flying-birds/index.vue'
+import FlyingBirds from '../../../ui/animation/flying-birds/index.vue'
 </script>
