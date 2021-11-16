@@ -14,11 +14,17 @@ module.exports = {
         text: '工具',
         link: '/tools/vitepress/alias',
         activeMatch: '^/tools/'
+      },
+      {
+        text: 'JavaScript',
+        link: '/js/dom/trigger-mouseover-manually',
+        activeMatch: '^/js/'
       }
     ],
     sidebar: {
       '/ui/': getUiSidebar(),
       '/tools/': getToolsSidebar(),
+      '/js/': getJsSidebar(),
       '/': getUiSidebar(),
     }
   },
@@ -58,6 +64,20 @@ function getToolsSidebar () {
         {
           text: '设置路径别名',
           link: '/tools/vitepress/alias'
+        }
+      ]
+    }
+  ]
+}
+
+function getJsSidebar () {
+  return [
+    {
+      text: 'JavaScript',
+      children: [
+        {
+          text: '手动触发鼠标移入事件',
+          link: '/js/dom/trigger-mouseover-manually'
         }
       ]
     }
